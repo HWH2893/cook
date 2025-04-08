@@ -1,0 +1,25 @@
+<view>
+ 
+  <header class="header">
+    <view class="cover">
+      <image src="/images/icons/logo.jpg" class="logo" />
+    </view>
+    <view class="title">欢迎来到CookMaster智能厨房助手</view>
+  </header>
+  <view class="button-container">
+
+    <view class="button-item" bindtap="navigatephotoIdentify" hover-class="button-item-hover">
+      <text class="button-text">拍照识别</text>
+    </view>
+
+    <view class="button-item" bindtap="navigatearGuide" hover-class="button-item-hover">
+      <text class="button-text">AR指导</text>
+    </view>
+
+  </view>
+
+
+ 
+
+
+</view>

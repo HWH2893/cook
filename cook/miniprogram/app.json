@@ -1,0 +1,65 @@
+{
+
+  "pages":
+   [
+    "pages/use-guidance/index",
+    "pages/search/index",
+    "pages/user-center/index",
+    "pages/page1/index",
+    "pages/page1.1/index",
+    "pages/page1.2/index",
+    "pages/history/index"
+  ],
+
+  "window":
+   {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "使用指南",
+    "navigationBarTextStyle": "black"
+  },
+
+  "sitemapLocation": "sitemap.json",
+
+  "lazyCodeLoading": "requiredComponents",
+
+  "tabBar":
+   {
+    "color": "#A2A9B0",
+    "selectedColor": "#07C160",
+
+    "backgroundColor": "#ffffff",
+
+    "borderStyle": "black",
+
+    "list":
+    [
+      {
+        "pagePath": "pages/page1/index",
+        "text": "主页",
+        "iconPath": "images/icons/home.jpg",
+        "selectedIconPath": "images/icons/home-active.jpg"
+      },
+      {
+        "pagePath": "pages/use-guidance/index",
+        "text": "使用指南",
+        "iconPath": "images/icons/use-guidance.jpg",
+        "selectedIconPath": "images/icons/use-guidance-active.jpg"
+      },
+      {
+        "pagePath": "pages/search/index",
+        "text": "精准检索",
+        "iconPath": "images/icons/search.jpg",
+        "selectedIconPath": "images/icons/search-active.jpg"
+      },
+      {
+        "pagePath": "pages/user-center/index",
+        "text": "个人中心",
+        "iconPath": "images/icons/user-center.jpg",
+        "selectedIconPath": "images/icons/user-center-active.jpg"
+      }
+    
+    ]
+  }
+}

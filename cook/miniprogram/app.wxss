@@ -1,0 +1,27 @@
+
+.container {
+  display: flex;  /*flex布局*/
+  flex-direction: column; /*垂直排列*/
+  align-items: center;    /*水平居中*/
+  box-sizing: border-box; /*盒子padding和border*/
+} 
+
+button {
+  background: initial; /*清除默认背景色*/
+}
+
+button:focus{
+  outline: 0;  /*移除焦点轮廓*/
+}
+
+button::after{
+  border: none;  /*去除默认边框*/
+}
+
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /*顶部开始排列*/
+}
